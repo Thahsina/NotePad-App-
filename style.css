@@ -26,7 +26,12 @@ body{
     position: fixed;
     top: 10px;
     right: 15px;
+    
 
+}
+
+.add i {
+    padding-right: 10px;
 }
 
 .note{
@@ -36,8 +41,9 @@ body{
     box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.1);
     height: 400px;
     margin: 30px 20px;
-    background: #fff;
-    overflow-y: scroll;
+    background: rgb(255, 255, 255);
+    
+    
 }
 
 .toolbox{
@@ -46,7 +52,7 @@ body{
     display: flex;
     justify-content: flex-end;
     
-    padding: 0.5rem;
+    padding: 0.4rem;
 }
 
 .note .toolbox button {
@@ -57,6 +63,7 @@ body{
     text-align: center;
     font-size: 1.2rem;
     cursor: pointer;
+    
 }
 
 .note textarea{
@@ -66,6 +73,7 @@ body{
     font-family: inherit;
     font-size: 1.2rem;
     height: 400px;
+    
 }
 
 .main {
